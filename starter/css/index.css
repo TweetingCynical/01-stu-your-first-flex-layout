@@ -83,7 +83,7 @@ p {
   If I make it point just to .hero, and then move the img tag in the html doc to outside the section, it shows. */
   div .hero {
     height: 150px;
-    width: 200px;
+    width: 50%;
     margin-bottom: 25px;
     background-image: url("/Images/group_work.png");
     background-size: cover;
