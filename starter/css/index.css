@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: white;
+  font-family: Montserrat;
+}
+
+header {
+  background-color: white;
+  position: sticky;
+  color:white;
+  padding: 10px;
+  font-family: Comfortaa;
+  font-size: 32px;
+}
+
+header h1 {
+  display: inline-block;
+  color: #2A2E70;
+  font-size: 32px;
+}
+
+header h1 .ed {
+  color: #F7C43F;
+  font-weight: bolder;
+}
+
+header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-size: 16px;
+  color: #2A2E70;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+a {
+  color: #2A2E70;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+/* Treats the banner as it's own row styling so that it can repeat on every page */
+.banner_flex {
+  display: flex;
+  padding: 10px;
+  margin: 0px;
+}
+
+.banner_flex_item {
+  padding:10px;
+  margin: 0px;
+  color: white;
+}
+
+#banner_row {
+  background-color: #2A2E70;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+  align-items: center;
+}
+
+/* I know this section is referenced incorrectly, but not sure why.
+  If I make it point just to .hero, and then move the img tag in the html doc to outside the section, it shows. */
+  div .hero {
+    height: 150px;
+    width: 200px;
+    margin-bottom: 25px;
+    background-image: url("/Images/group_work.png");
+    background-size: cover;
+    background-position: center;
+    align-self: flex-start;
+  }
+
+/* Styling for flex and flex items */
+
+.flex_item {
+  padding:10px;
+  margin: 10px;
+  border: 1px solid white;
+  background-color: #5D2550;
+  color: white;
+}
+
+.flex {
+  display: flex;
+  padding: 10px;
+  margin: 5px;
+}
+
+#column {
+  background-color: #F7C43F;
+  flex-direction: column;
+}
+#row {
+  background-color: #CCCF3B;
+  flex-direction: row;
+  color:white;
+}
+
